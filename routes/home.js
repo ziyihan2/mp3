@@ -4,18 +4,6 @@
  * Handles HTTP requests for users and tasks.
  */
 
-
-// ===：严格相等，比较值和类型。
-// undefined：表示这个参数没有传入值
-// typeof：检查变量的数据类型。
-// !==：严格不等于。
-// throw：主动抛出一个错误
-// typeof 'hello'  // 'string'
-// typeof 123      // 'number'
-// typeof {}       // 'object'
-//JSON.parse() 的作用是把 JSON 格式的字符串转换成 JavaScript 数据
-
-
 var U = require('../models/user');
 var T = require('../models/tasks');
 var mg = require('mongoose');
